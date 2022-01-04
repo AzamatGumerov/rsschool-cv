@@ -1,15 +1,23 @@
 * {
-    font-family: 'DM Sans', sans-serif;
+    font-family: 'Heebo', sans-serif;
 }
 
 body {
     background-color: #010101;
     color: #F8F8F8;
+    font-size: 16px;
+    line-height: 1.5;
   }
 
 h1 {
     font-size: 50px;
     font-weight: 700;
+}
+
+.container {
+    width: 100%;
+    max-width: 1200px;
+    margin: 0 auto;
 }
 
 .avatar {
