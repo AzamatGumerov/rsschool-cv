@@ -1,3 +1,174 @@
+*,
+::before,
+::after {
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
 body {
-    background-color: #010101;
+    background-color: #151517;
+    color: #F8F8F8;
+    font-size: 18px;
+    line-height: 1.6;
   }
+
+h1 {
+    font-size: 50px;
+    font-weight: 700;
+}
+
+a {
+    text-decoration: none;
+}
+
+section {
+    padding: 100px 0;
+}
+
+.section__title {
+    font-size: 30px;
+    font-weight: 700;
+    color: #F40586;
+    margin-bottom: 50px;
+}
+
+.container {
+    width: 100%;
+    max-width: 1000px;
+    margin: 0 auto;
+    padding: 0 15px;
+}
+
+/* Header */
+.header {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 10;
+    width: 100%;
+    max-width: 1000px;
+    margin: 0 auto;
+    padding: 0 15px;
+    background-color: #151517;
+}
+
+.header__inner {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 0;
+}
+
+.nav__item + .nav__item{
+    margin-left: 30px;
+}
+
+.nav__list {
+    display: flex;
+    justify-content: space-between;
+}
+
+.nav__link {
+    color: #F8F8F8;
+    transition: .3s ease-in-out;
+}
+
+.nav__link:hover {
+    color: #F40586;
+}
+
+/* Intro */
+.intro {
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;    
+}
+
+.avatar {
+    border-radius: 50%;
+    margin-bottom: 50px;
+}
+
+.job {
+    color: #F40586;
+}
+
+/* About me */
+
+/* Skills */
+.skills__list li {
+    margin-left: 30px;
+    padding-left: 10px;
+}
+
+.skills__list li + li {
+    margin-top: 10px;
+}
+
+.skills__list li::marker {
+    content: "+";
+    color: #F40586;
+}
+
+/* Education and courses */
+.education__list li {
+    margin-left: 30px;
+    padding-left: 10px;
+}
+
+.education__list li + li {
+    margin-top: 10px;
+}
+
+.education__list li::marker {
+    content: "+";
+    color: #F40586;
+}
+
+/* Languages */
+.languages__list li {
+    margin-left: 30px;
+    padding-left: 10px;
+}
+
+.languages__list li + li {
+    margin-top: 10px;
+}
+
+.languages__list li::marker {
+    content: "+";
+    color: #F40586;
+}
+
+/* Contacts */
+.contacts__list li {
+    margin-left: 30px;
+    padding-left: 10px;
+}
+
+.contacts__list li + li {
+    margin-top: 10px;
+}
+
+.contacts__list li::marker {
+    content: "+";
+    color: #F40586;
+}
+
+/* Footer */
+.footer__inner {
+    display: flex;
+    justify-content: space-between;
+    padding: 20px 0;
+}
+
+.footer__links a + a {
+    margin-left: 30px;
+}
