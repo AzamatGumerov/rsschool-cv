@@ -1,2 +1,2 @@
-https://azamatgumerov.github.io/rsschool-cv/cv
+rsschool-cv
 https://azamatgumerov.github.io/rsschool-cv/
